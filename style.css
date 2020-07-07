@@ -162,18 +162,18 @@ body{
     margin: 28px auto;
 }
 
-.profile a{
+.profile-available a{
     margin-left: 32px;
     margin-right: 12px;
     text-decoration-line: underline;
     color: #5E20A4;
 }
 
-.profile h4{
+.profile-available h4{
     color: #000000;
 }
 
-.profile a, .profile h4{
+.profile-available a, .profile-available h4{
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;    
