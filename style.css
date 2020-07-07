@@ -1,0 +1,543 @@
+body{
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-style: normal;
+}
+
+.header-main-container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto; 
+}
+
+.header{
+    grid-area: header;
+}
+
+.header-content{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-and-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.hapu-green-logo{
+    width: 48px;
+    height: 64px;
+    z-index: 2;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    padding: 0 40px;
+    z-index: 2;
+}
+.menu-item{
+    margin-right: 32px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.login-item{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.register{
+    padding: 12px 24px;
+    background-color: #00C88C;
+    border-radius: 4px;
+    margin-right: 24px;
+}
+
+.main{
+    grid-area: main;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-areas: 
+        "top top top"
+        ". content1 ."
+        "end1 end1 end1";
+    grid-template-columns: 228px auto 228px;
+    grid-template-rows: 520px auto auto;
+}
+
+.bg-main-content-grid{
+    grid-area: top;
+    background-image: linear-gradient(336.64deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%), url(./images/banner_image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-blend-mode: overlay;
+    /* z-index: -1;  */
+
+    display: grid;
+    grid-template-areas: 
+        ". . ."
+        ". content2 ."
+        ". . .";
+    grid-template-columns: 128px auto 228px;
+    grid-template-rows: 150px auto 135px;
+    margin-top: -64px;
+}
+
+.bg-main-content{
+    grid-area: content2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-text{
+    width: 584px;
+}
+
+.bg-text h1{
+    margin: 30px 94px 24px 0;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.bg-text p{
+    margin-bottom: 40px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.bg-player{
+    grid-area: content2;
+    display: flex;
+    align-items: center;
+}
+
+.bg-player a{
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.banner-modal-image{
+    width: 316px;
+}
+
+.normal-main-content{
+    grid-area: content1;
+    grid-column: 1/4 ;
+}
+
+.profile-available{
+    grid-area: content1;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    place-content: center;
+    margin: 28px auto;
+}
+
+.profile a{
+    margin-left: 32px;
+    margin-right: 12px;
+    text-decoration-line: underline;
+    color: #5E20A4;
+}
+
+.profile h4{
+    color: #000000;
+}
+
+.profile a, .profile h4{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;    
+}
+
+.bg-color{
+    background: #F2F2F2;
+}
+
+.all-content-grid{
+    display: grid;
+    grid-template-areas: 
+        ". first-call ."
+        ". hr1 ."
+        ". form ."
+        ". hr2 ."
+        ". payment ."
+        ". hr3 ."
+        ". billing ."
+        ". hr4 ."
+        ". diary .";
+    grid-template-rows: auto;
+    grid-template-columns: auto 1084px auto;
+}
+
+.first-call{
+    grid-area: first-call;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 120px;
+}
+
+.first-call-text{
+    margin-right: 64px;
+    margin-left: 95.5px;
+}
+
+.first-call-text h2{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #3D3D3D;
+}
+
+.first-call-text p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3D3D3D;
+    width: 436px;
+    margin: 40px 0;
+}
+
+.first-call-text p a, .first-call-text a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #5E20A4;
+}
+
+.nanny-macbook-image{
+    width: 584px;
+    height: 392px;
+}
+
+#hr1{
+    grid-area: hr1;
+    width: 784px;
+    margin: 120px auto 64px auto;
+    color:#DFDFDF;
+}
+
+.form{
+    grid-area: form;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.form h3{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #3D3D3D;
+}
+
+.form p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3D3D3D;
+    margin: 16px 0 74px 0;
+}
+
+.name, .email{
+    padding: 14px 145px 14px 20px;
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.send{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #00C88C;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 31px;
+}
+
+#hr2{
+    grid-area: hr2;
+    width: 784px;
+    margin: 78px auto 96px auto;
+    color:#DFDFDF;
+}
+
+.payment-example{
+    grid-area: payment;
+    display: flex;
+}
+
+.payment-image{
+    width: 456px;
+    height: 336px;
+    margin-right: 44px;
+}
+
+.payment-text h2{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #3D3D3D;
+}
+
+.payment-text p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3D3D3D;
+    margin: 40px 0;
+}
+
+.payment-text a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #5E20A4;
+}
+
+#hr3{
+    grid-area: hr3;
+    width: 784px;
+    margin: 96px auto;
+    color:#DFDFDF;
+}
+
+.billing-example{
+    grid-area: billing;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.billing-example h2{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #3D3D3D;
+}
+
+.billing-example p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3D3D3D;
+    margin: 40px 0;
+}
+
+.billing-example a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #5E20A4;
+    margin-bottom: 64px;
+}
+
+.bill-image{
+    width: 984px;
+    height: 392px;
+}
+
+#hr4{
+    grid-area: hr4;
+    width: 784px;
+    margin: 104px auto 86px auto;
+    color:#DFDFDF;
+}
+
+.daily-diary{
+    grid-area: diary;
+    justify-content: center;
+    text-align: center;
+}
+
+.daily-diary-image{
+    width: 216px;
+    height: 96px;
+    margin: 0 auto;
+}
+
+.daily-diary h2{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #3D3D3D;
+    margin: 40px auto;
+}
+
+.daily-diary p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3D3D3D;
+    margin-bottom: 120px;
+}
+
+.last-call{
+    text-align: center;
+}
+
+.last-call-title{
+    margin: 80px 0 16px 0;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #3D3D3D;
+}
+
+.last-call-text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3D3D3D;
+}
+
+.button-align{
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 0 24px 0;
+}
+
+.button-grid{
+    background: #5E20A4;
+    border-radius: 4px;
+    width: min-content;
+    display: grid;
+    grid-template-areas: 
+        ". . ."
+        ". body ."
+        ". . .";
+    grid-template-rows: 12px auto 12px;
+    grid-template-columns: 24px 234px 23px;
+}
+
+.button-image{
+    grid-area: body;
+    text-align: left;
+}
+
+.button-icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+}
+
+.button-content{
+    grid-area: body;
+    text-align: left;
+    margin-left: 51px;
+}
+
+.button-title{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.button-text{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.last-call-link{
+    margin-bottom: 82px;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.footer-content-grid{
+    grid-area: end1;
+    display: grid;
+    grid-template-areas: 
+        ". items ."
+        ". copyright .";
+    grid-template-rows: auto auto;
+    grid-template-columns: auto 1184px auto;
+    margin-top: 82px;
+}
+
+.footer-items{
+    grid-area: items;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hapu-gray-logo{
+    width: 64px;
+    height: 24px;
+}
+
+.footer-navegation{
+    width: 480px;
+    justify-content: space-between;
+}
+
+.nav-footer-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3D3D3D;
+}
+
+.social-media:not(:last-child){
+    margin-right: 16px;
+}
+
+.copyright{
+    grid-area: copyright;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3D3D3D;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+#hr5{
+    grid-area: hr5;
+    width: 1184px;
+    margin: 58px auto 32px auto;
+    color:#DFDFDF;
+}
+
