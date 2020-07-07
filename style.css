@@ -1,9 +1,9 @@
-body{
+body {
     font-family: Helvetica Neue, Helvetica, Arial;
     font-style: normal;
 }
 
-.header-main-container{
+.header-main-container {
     display: grid;
     grid-template-areas: 
     "header"
@@ -13,27 +13,29 @@ body{
     grid-template-rows: auto 1fr auto; 
 }
 
-.header{
+.header {
     grid-area: header;
-}
+} 
 
-.header-content{
+.header-content {
     width: 95%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
-.logo-and-menu{
+.logo-and-menu {
     display: flex;
     justify-content: space-between;
 }
-.hapu-green-logo{
+
+.hapu-green-logo {
     width: 48px;
     height: 64px;
     z-index: 2;
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,39 +43,41 @@ body{
     padding: 0 40px;
     z-index: 2;
 }
-.menu-item{
+
+.menu-item {
     margin-right: 32px;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
 }
-.login{
+
+.login {
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 2;
 }
 
-.login-item{
+.login-item {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
 }
 
-.register{
+.register {
     padding: 12px 24px;
     background-color: #00C88C;
     border-radius: 4px;
     margin-right: 24px;
 }
 
-.main{
+.main {
     grid-area: main;
 }
 
-.main-grid{
+.main-grid {
     display: grid;
     grid-template-areas: 
         "top top top"
@@ -83,7 +87,7 @@ body{
     grid-template-rows: 520px auto auto;
 }
 
-.bg-main-content-grid{
+.bg-main-content-grid {
     grid-area: top;
     background-image: linear-gradient(336.64deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%), url(./images/banner_image.png);
     background-size: cover;
@@ -102,17 +106,17 @@ body{
     margin-top: -64px;
 }
 
-.bg-main-content{
+.bg-main-content {
     grid-area: content2;
     display: flex;
     justify-content: space-between;
 }
 
-.bg-text{
+.bg-text {
     width: 584px;
 }
 
-.bg-text h1{
+.bg-text h1 {
     margin: 30px 94px 24px 0;
     font-weight: 500;
     font-size: 40px;
@@ -121,7 +125,7 @@ body{
     color: #FFFFFF;
 }
 
-.bg-text p{
+.bg-text p {
     margin-bottom: 40px;
     font-weight: normal;
     font-size: 18px;
@@ -129,13 +133,13 @@ body{
     color: #FFFFFF;
 }
 
-.bg-player{
+.bg-player {
     grid-area: content2;
     display: flex;
     align-items: center;
 }
 
-.bg-player a{
+.bg-player a {
     margin-left: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -144,16 +148,16 @@ body{
     color: #FFFFFF;
 }
 
-.banner-modal-image{
+.banner-modal-image {
     width: 316px;
 }
 
-.normal-main-content{
+.normal-main-content {
     grid-area: content1;
     grid-column: 1/4 ;
 }
 
-.profile-available{
+.profile-available {
     grid-area: content1;
     display: flex;
     align-items: center;
@@ -162,28 +166,28 @@ body{
     margin: 28px auto;
 }
 
-.profile-available a{
+.profile-available a {
     margin-left: 32px;
     margin-right: 12px;
     text-decoration-line: underline;
     color: #5E20A4;
 }
 
-.profile-available h4{
+.profile-available h4 {
     color: #000000;
 }
 
-.profile-available a, .profile-available h4{
+.profile-available a, .profile-available h4 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;    
 }
 
-.bg-color{
+.bg-color {
     background: #F2F2F2;
 }
 
-.all-content-grid{
+.all-content-grid {
     display: grid;
     grid-template-areas: 
         ". first-call ."
@@ -199,26 +203,26 @@ body{
     grid-template-columns: auto 1084px auto;
 }
 
-.first-call{
+.first-call {
     grid-area: first-call;
     display: flex;
     align-items: flex-start;
     margin-top: 120px;
 }
 
-.first-call-text{
+.first-call-text {
     margin-right: 64px;
     margin-left: 95.5px;
 }
 
-.first-call-text h2{
+.first-call-text h2 {
     font-weight: 500;
     font-size: 28px;
     line-height: 32px;
     color: #3D3D3D;
 }
 
-.first-call-text p{
+.first-call-text p {
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
@@ -227,7 +231,7 @@ body{
     margin: 40px 0;
 }
 
-.first-call-text p a, .first-call-text a{
+.first-call-text p a, .first-call-text a {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -235,33 +239,33 @@ body{
     color: #5E20A4;
 }
 
-.nanny-macbook-image{
+.nanny-macbook-image {
     width: 584px;
     height: 392px;
 }
 
-#hr1{
+#hr1 {
     grid-area: hr1;
     width: 784px;
     margin: 120px auto 64px auto;
     color:#DFDFDF;
 }
 
-.form{
+.form {
     grid-area: form;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.form h3{
+.form h3 {
     font-weight: 500;
     font-size: 22px;
     line-height: 32px;
     color: #3D3D3D;
 }
 
-.form p{
+.form p {
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
@@ -269,7 +273,7 @@ body{
     margin: 16px 0 74px 0;
 }
 
-.name, .email{
+.name, .email {
     padding: 14px 145px 14px 20px;
     background: #FFFFFF;
     border: 1px solid #DFDFDF;
@@ -277,7 +281,7 @@ body{
     border-radius: 4px;
 }
 
-.send{
+.send {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -288,32 +292,32 @@ body{
     padding: 14px 31px;
 }
 
-#hr2{
+#hr2 {
     grid-area: hr2;
     width: 784px;
     margin: 78px auto 96px auto;
     color:#DFDFDF;
 }
 
-.payment-example{
+.payment-example {
     grid-area: payment;
     display: flex;
 }
 
-.payment-image{
+.payment-image {
     width: 456px;
     height: 336px;
     margin-right: 44px;
 }
 
-.payment-text h2{
+.payment-text h2 {
     font-weight: 500;
     font-size: 28px;
     line-height: 32px;
     color: #3D3D3D;
 }
 
-.payment-text p{
+.payment-text p {
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
@@ -321,7 +325,7 @@ body{
     margin: 40px 0;
 }
 
-.payment-text a{
+.payment-text a {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -329,28 +333,28 @@ body{
     color: #5E20A4;
 }
 
-#hr3{
+#hr3 {
     grid-area: hr3;
     width: 784px;
     margin: 96px auto;
     color:#DFDFDF;
 }
 
-.billing-example{
+.billing-example {
     grid-area: billing;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.billing-example h2{
+.billing-example h2 {
     font-weight: 500;
     font-size: 28px;
     line-height: 32px;
     color: #3D3D3D;
 }
 
-.billing-example p{
+.billing-example p {
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
@@ -358,7 +362,7 @@ body{
     margin: 40px 0;
 }
 
-.billing-example a{
+.billing-example a {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -367,31 +371,31 @@ body{
     margin-bottom: 64px;
 }
 
-.bill-image{
+.bill-image {
     width: 984px;
     height: 392px;
 }
 
-#hr4{
+#hr4 {
     grid-area: hr4;
     width: 784px;
     margin: 104px auto 86px auto;
     color:#DFDFDF;
 }
 
-.daily-diary{
+.daily-diary {
     grid-area: diary;
     justify-content: center;
     text-align: center;
 }
 
-.daily-diary-image{
+.daily-diary-image {
     width: 216px;
     height: 96px;
     margin: 0 auto;
 }
 
-.daily-diary h2{
+.daily-diary h2 {
     font-weight: 500;
     font-size: 28px;
     line-height: 32px;
@@ -399,7 +403,7 @@ body{
     margin: 40px auto;
 }
 
-.daily-diary p{
+.daily-diary p {
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
@@ -407,11 +411,11 @@ body{
     margin-bottom: 120px;
 }
 
-.last-call{
+.last-call {
     text-align: center;
 }
 
-.last-call-title{
+.last-call-title {
     margin: 80px 0 16px 0;
     font-weight: 500;
     font-size: 28px;
@@ -419,20 +423,20 @@ body{
     color: #3D3D3D;
 }
 
-.last-call-text{
+.last-call-text {
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     color: #3D3D3D;
 }
 
-.button-align{
+.button-align {
     display: flex;
     justify-content: space-around;
     margin: 32px 0 24px 0;
 }
 
-.button-grid{
+.button-grid {
     background: #5E20A4;
     border-radius: 4px;
     width: min-content;
@@ -445,46 +449,46 @@ body{
     grid-template-columns: 24px 234px 23px;
 }
 
-.button-image{
+.button-image {
     grid-area: body;
     text-align: left;
 }
 
-.button-icon{
+.button-icon {
     width: 30px;
     height: 30px;
     margin-top: 7px;
 }
 
-.button-content{
+.button-content {
     grid-area: body;
     text-align: left;
     margin-left: 51px;
 }
 
-.button-title{
+.button-title {
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
     color: #FFFFFF;
 }
 
-.button-text{
+.button-text {
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
     color: #FFFFFF;
 }
 
-.last-call-link{
+.last-call-link {
     margin-bottom: 82px;
 }
 
-.footer{
+.footer {
     grid-area: footer;
 }
 
-.footer-content-grid{
+.footer-content-grid {
     grid-area: end1;
     display: grid;
     grid-template-areas: 
@@ -495,35 +499,35 @@ body{
     margin-top: 82px;
 }
 
-.footer-items{
+.footer-items {
     grid-area: items;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.hapu-gray-logo{
+.hapu-gray-logo {
     width: 64px;
     height: 24px;
 }
 
-.footer-navegation{
+.footer-navegation {
     width: 480px;
     justify-content: space-between;
 }
 
-.nav-footer-item{
+.nav-footer-item {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     color: #3D3D3D;
 }
 
-.social-media:not(:last-child){
+.social-media:not(:last-child) {
     margin-right: 16px;
 }
 
-.copyright{
+.copyright {
     grid-area: copyright;
     text-align: center;
     font-weight: normal;
@@ -534,7 +538,7 @@ body{
     opacity: 0.6;
 }
 
-#hr5{
+#hr5 {
     grid-area: hr5;
     width: 1184px;
     margin: 58px auto 32px auto;
