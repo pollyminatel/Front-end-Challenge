@@ -116,7 +116,7 @@ body {
     width: 584px;
 }
 
-.bg-text h1 {
+.bg-title {
     margin: 30px 94px 24px 0;
     font-weight: 500;
     font-size: 40px;
@@ -125,7 +125,7 @@ body {
     color: #FFFFFF;
 }
 
-.bg-text p {
+.bg-subtitle {
     margin-bottom: 40px;
     font-weight: normal;
     font-size: 18px;
@@ -139,7 +139,7 @@ body {
     align-items: center;
 }
 
-.bg-player a {
+.player-text {
     margin-left: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -166,18 +166,18 @@ body {
     margin: 28px auto;
 }
 
-.profile-available a {
+.profile-link {
     margin-left: 32px;
     margin-right: 12px;
     text-decoration-line: underline;
     color: #5E20A4;
 }
 
-.profile-available h4 {
+.profile-date {
     color: #000000;
 }
 
-.profile-available a, .profile-available h4 {
+.profile-link, .profile-date {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;    
@@ -215,14 +215,14 @@ body {
     margin-left: 95.5px;
 }
 
-.first-call-text h2 {
+.first-call-title {
     font-weight: 500;
     font-size: 28px;
     line-height: 32px;
     color: #3D3D3D;
 }
 
-.first-call-text p {
+.first-call-sentence {
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
@@ -231,7 +231,7 @@ body {
     margin: 40px 0;
 }
 
-.first-call-text p a, .first-call-text a {
+.first-call-sentence-strong, .first-call-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -244,7 +244,7 @@ body {
     height: 392px;
 }
 
-#hr1 {
+.hr1 {
     grid-area: hr1;
     width: 784px;
     margin: 120px auto 64px auto;
@@ -258,14 +258,14 @@ body {
     justify-content: space-around;
 }
 
-.form h3 {
+.form-text {
     font-weight: 500;
     font-size: 22px;
     line-height: 32px;
     color: #3D3D3D;
 }
 
-.form p {
+.form-subtext {
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
@@ -292,7 +292,7 @@ body {
     padding: 14px 31px;
 }
 
-#hr2 {
+.hr2 {
     grid-area: hr2;
     width: 784px;
     margin: 78px auto 96px auto;
@@ -310,14 +310,14 @@ body {
     margin-right: 44px;
 }
 
-.payment-text h2 {
+.payment-title {
     font-weight: 500;
     font-size: 28px;
     line-height: 32px;
     color: #3D3D3D;
 }
 
-.payment-text p {
+.payment-subtitle {
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
@@ -325,7 +325,7 @@ body {
     margin: 40px 0;
 }
 
-.payment-text a {
+.payment-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -333,7 +333,7 @@ body {
     color: #5E20A4;
 }
 
-#hr3 {
+.hr3 {
     grid-area: hr3;
     width: 784px;
     margin: 96px auto;
@@ -347,14 +347,14 @@ body {
     justify-content: center;
 }
 
-.billing-example h2 {
+.billing-title {
     font-weight: 500;
     font-size: 28px;
     line-height: 32px;
     color: #3D3D3D;
 }
 
-.billing-example p {
+.billing-subtitle {
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
@@ -362,7 +362,7 @@ body {
     margin: 40px 0;
 }
 
-.billing-example a {
+.billing-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -376,7 +376,7 @@ body {
     height: 392px;
 }
 
-#hr4 {
+.hr4 {
     grid-area: hr4;
     width: 784px;
     margin: 104px auto 86px auto;
@@ -395,7 +395,7 @@ body {
     margin: 0 auto;
 }
 
-.daily-diary h2 {
+.daily-diary-title {
     font-weight: 500;
     font-size: 28px;
     line-height: 32px;
@@ -403,7 +403,7 @@ body {
     margin: 40px auto;
 }
 
-.daily-diary p {
+.daily-diary-subtitle {
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
@@ -494,7 +494,6 @@ body {
     grid-template-areas: 
         ". items ."
         ". copyright .";
-    grid-template-rows: auto auto;
     grid-template-columns: auto 1184px auto;
     margin-top: 82px;
 }
@@ -538,7 +537,7 @@ body {
     opacity: 0.6;
 }
 
-#hr5 {
+.hr5 {
     grid-area: hr5;
     width: 1184px;
     margin: 58px auto 32px auto;
