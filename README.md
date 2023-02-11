@@ -11,3 +11,14 @@
 <h3>Instructions</h3>
 <p>To visualize the webpage you have to download all the files and open the index.html file in your browser.
 The browser requires a refresh to load every chenge in the cod.</p>
+
+<h3>Webpage Screen Shots</h3>
+
+
+<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project1.png">
+<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project2.png">
+<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project3.png">
+<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project4.png">
+<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project5.png">
+<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project6.png">
+<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project7.png">
