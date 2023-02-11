@@ -1,4 +1,4 @@
-<h1>Jungle Devs - Frontend Challenge </h1>
+<h1>Frontend Challenge</h1>
 <h3>Description</h3>
 <p>The project is a simple static webpage using HTML and CSS.</p>
 
@@ -15,10 +15,10 @@ The browser requires a refresh to load every chenge in the cod.</p>
 <h3>Webpage Screen Shots</h3>
 
 
-<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project1.png">
-<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project2.png">
-<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project3.png">
-<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project4.png">
-<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project5.png">
-<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project6.png">
-<img src="https://github.com/pollyminatel/JungleDevs-Front-end-Challenge/blob/master/webpage-screenshots/project7.png">
+<img src="https://github.com/pollyminatel/Front-end-Challenge/blob/master/webpage-screenshots/project1.png">
+<img src="https://github.com/pollyminatel/Front-end-Challenge/blob/master/webpage-screenshots/project2.png">
+<img src="https://github.com/pollyminatel/Front-end-Challenge/blob/master/webpage-screenshots/project3.png">
+<img src="https://github.com/pollyminatel/Front-end-Challenge/blob/master/webpage-screenshots/project4.png">
+<img src="https://github.com/pollyminatel/Front-end-Challenge/blob/master/webpage-screenshots/project5.png">
+<img src="https://github.com/pollyminatel/Front-end-Challenge/blob/master/webpage-screenshots/project6.png">
+<img src="https://github.com/pollyminatel/Front-end-Challenge/blob/master/webpage-screenshots/project7.png">
